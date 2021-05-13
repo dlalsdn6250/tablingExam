@@ -5,11 +5,11 @@ plugins {
 
 android {
     //noinspection GradleCompatible
-    compileSdkVersion "android-P"
+    compileSdkVersion 28
 
     defaultConfig {
         applicationId "kr.co.tabling"
-        minSdkVersion 27
+        minSdkVersion 28
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"

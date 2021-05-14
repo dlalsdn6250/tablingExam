@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 import kr.co.tabling.R
 
 class DetailImageActivity : AppCompatActivity() {
@@ -19,6 +20,7 @@ class DetailImageActivity : AppCompatActivity() {
 
         Glide.with(applicationContext)
             .load(imageUrl)
+            .apply(RequestOptions().override(width, height))
             .into(imageView);
     }
 }

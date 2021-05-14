@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_header_text_size">30dp</dimen>
+    <dimen name="item_header_top_margin">16dp</dimen>
+    <dimen name="item_header_bottom_margin">16dp</dimen>
+    <dimen name="item_name_text_size">24dp</dimen>
+    <dimen name="item_name_left_margin">16dp</dimen>
+    <dimen name="item_imageview_width">160dp</dimen>
+    <dimen name="item_imageview_height">160dp</dimen>
+</resources>
